@@ -170,7 +170,7 @@ body {
     text-transform: capitalize;
 }
 
-.web-dev-inner-one, .web-dev-inner-two {
+.web-dev-inner-one, .web-dev-inner-two, .web-dev-inner-three {
     display: flex;
     padding: 48px;
     justify-content: space-between;
