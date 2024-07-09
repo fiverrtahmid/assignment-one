@@ -5,7 +5,58 @@
   font-optical-sizing: auto; */
 
 *{
-    max-width: 0;
+    margin: 0;
     padding: 0;
     font-family: "Azeret Mono", monospace;
+    text-decoration: none;
+}
+
+a {
+    display: block;
+}
+
+.btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 24px;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: white;
+    padding: 38px 10px;
+}
+
+.header-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #000;
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo span {
+    text-transform: uppercase;
+}
+
+.main {
+
 }
