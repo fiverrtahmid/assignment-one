@@ -123,3 +123,98 @@ body {
     background-color: #000;
     color: #fff;
 }
+
+/*
+==== why-web-development style start here ====
+*/
+
+.why-web-development {
+    padding: 80px 97px;
+    max-width: 1140px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.webdev-top {
+    max-width: 852px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 48px;
+}
+
+.section-desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.section-heading, .section-desc {
+    text-align: center;
+}
+
+.section-heading {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.web-dev-inner-one {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(250,250,251,1) 100%);
+    border-radius: 16px;
+}
+
+.web-dev-inner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    max-width: 50%;
+}
+
+.web-dev-inner-img {
+    max-width: 50%;
+}
+
+.web-dev-inner-text h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.web-dev-inner-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-learnmore {
+    padding: 12px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
