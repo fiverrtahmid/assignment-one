@@ -289,7 +289,7 @@ body {
     max-width: 56px;
 }
 
-.target-item, .target-item-text a {
+.target-item a {
     color: #000;
     text-transform: capitalize;
     text-decoration: underline;
@@ -334,4 +334,68 @@ body {
 .target-item-text p {
     font-style: 16px;
     line-height: 26px;
+}
+.target-item-text a {
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: semi-bold;
+}
+
+.need-support {
+    padding: 64px 48px;
+    background-image: url(assets/handshake.jpg);
+    background-position: 0 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-color: #0000005d;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.support-text {
+    color: #fff;
+    text-align: center;
+}
+.support-text h4{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.support-text p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.form form {
+    display: flex;
+    gap: 10px;
+}
+
+.form form input[type="text"] {
+    padding: 10px;
+    background-color: #fff;
+    width: 500px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.form form input[type="submit"] {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px;
+    color: #000;
+    text-transform: capitalize;
+    border: 1px solid rgba(13, 19, 33, 0.15);
 }
