@@ -7,12 +7,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Azeret Mono", monospace;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 a {
     display: block;
+    text-decoration: none;
 }
 
 img {
@@ -37,6 +37,7 @@ img {
 
 body {
     max-width: 1440px;
+    font-family: "Azeret Mono", monospace;
     margin: 0 auto;
 }
 
@@ -129,7 +130,7 @@ body {
 ==== why-web-development style start here ====
 */
 
-.why-web-development, .my-inspiration, .my-current-target {
+.why-web-development, .my-inspiration, .my-current-target, .next-target {
     padding: 80px 97px;
     max-width: 1140px;
     border-radius: 16px;
@@ -252,8 +253,9 @@ body {
 
 .my-current-target {
     margin-top: 0;
-    padding-top: 75px;
+    padding-top: 20px;
     background-color: #fff;
+    margin-bottom: 0;
 }
 
 .target-top {
@@ -287,9 +289,49 @@ body {
     max-width: 56px;
 }
 
-.target-item a {
+.target-item, .target-item-text a {
     color: #000;
     text-transform: capitalize;
     text-decoration: underline;
     font-weight: semi-bold;
+}
+
+/* 
+==== my next-target style starts here ==== 
+*/
+
+.next-target {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #fff;
+}
+
+.next-target-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next-target-item {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.next-target-item img {
+    width: 108px;
+}
+.target-item-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.target-item-text p {
+    font-style: 16px;
+    line-height: 26px;
 }
