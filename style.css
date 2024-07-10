@@ -36,13 +36,12 @@ img {
 }
 
 body {
-    max-width: 1440px;
     font-family: "Azeret Mono", monospace;
-    margin: 0 auto;
 }
 
 .main {
-
+    max-width: 1440px;
+    margin: 0 auto;
 }
 /*
 ==== header style start here ====
@@ -398,4 +397,25 @@ body {
     color: #000;
     text-transform: capitalize;
     border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+/* 
+==== footer style start here ====
+*/
+footer {
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
 }
