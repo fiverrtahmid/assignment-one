@@ -292,7 +292,7 @@ body {
     color: #000;
     text-transform: capitalize;
     text-decoration: underline;
-    font-weight: semi-bold;
+    font-weight: bold;
 }
 
 /* 
@@ -338,7 +338,7 @@ body {
     color: #000;
     text-transform: capitalize;
     text-decoration: underline;
-    font-weight: semi-bold;
+    font-weight: bold;
 }
 
 .need-support {
