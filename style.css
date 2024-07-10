@@ -20,6 +20,7 @@ img {
     width: 100%;
 }
 
+
 .btn {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -128,7 +129,7 @@ body {
 ==== why-web-development style start here ====
 */
 
-.why-web-development, .my-inspiration {
+.why-web-development, .my-inspiration, .my-current-target {
     padding: 80px 97px;
     max-width: 1140px;
     border-radius: 16px;
@@ -140,7 +141,7 @@ body {
 
 }
 
-.webdev-top, .inspiration-top {
+.webdev-top, .inspiration-top, .target-top {
     max-width: 852px;
     margin: 0 auto;
     display: flex;
@@ -230,6 +231,8 @@ body {
 .my-inspiration {
     background-color: #fff;
     padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 75px;
 }
 
 .inspiration-video {
@@ -243,3 +246,50 @@ body {
     border-radius: 16px;
 }
 
+/* 
+==== my-current-target style starts here ====
+*/
+
+.my-current-target {
+    margin-top: 0;
+    padding-top: 75px;
+    background-color: #fff;
+}
+
+.target-top {
+    padding-bottom: 20px;
+}
+
+.target-items {
+    display: flex;
+    gap: 30px;
+}
+
+.target-item {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+.target-item:nth-child(1) {
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-item:nth-child(2) {
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-item:nth-child(3) {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-item img {
+    max-width: 56px;
+}
+
+.target-item a {
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: semi-bold;
+}
